@@ -1,14 +1,15 @@
 .header {
     width: 100vw;
     height: 100vh;
-       
+    
 }
 .header-container {
     height: 100vh;
     z-index: -999;
     background-image: url(../images/header.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;  
      
 }
 .header-bar {
@@ -16,21 +17,30 @@
    display: flex;
    align-items: center;
    position: absolute;
-   gap: 25%;
    top: 0;
-   margin-top: 19px;
+     
+}
+.logo {
+    position: relative;
+    left: 50%;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
 }
 .header-bar i {
+    position: fixed;
     margin-left: 40px;
+    color: $color-text;
 }
 .enjoy-buy {
    display: flex;
    flex-direction: column;
    align-items: center;
    position: relative;
-   transform: translateY(-450%);
+   transform: translateY(-300%);
    font-family: $font-main;
    gap: 62px;
+   
 }
 h1 {
     color: $color-text;
@@ -45,5 +55,12 @@ h1 {
     background-color: $color-text;
     color: white;
     font-size: 16px;
+    font-weight: 600;
+    transition: background-color .7s;
+    
 
+}
+.button-buy:hover {
+    background-color: #80DED9;
+    color: black;
 }

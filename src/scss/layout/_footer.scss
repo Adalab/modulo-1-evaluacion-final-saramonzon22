@@ -1,24 +1,63 @@
 .footer {
     background-color: #0c474b;
     color: $color-footer-text;
+    font-family: $font-main;
+    height: 70vh;
+ 
+}
+.footer li:first-letter {
+    text-transform: capitalize;
+}
+.list1{
+    
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.list2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     
 }
-.list1 {
-    
-    color: $color-footer-text;
-    text-transform: capitalize;
+
+.list3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
-.list2 {
-   
+.list-ft {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 25%;
     color: $color-footer-text;
-    text-transform: capitalize;
+    gap: 10px;
 }
-.list3 {
-    
+.h3-ft {
+    font-size: $font-size-main;
+    font-weight: 800;
+
+}
+.a-footer {
+    text-decoration: none;
     color: $color-footer-text;
-    text-transform: capitalize;
+}
+.icons-ft {
+    display: flex;
+    gap: 11px;
+}
+.up-icon {
+    text-decoration: none;
+    position: absolute;
+    right: 5%;
+    color: $color-footer-text;
 }

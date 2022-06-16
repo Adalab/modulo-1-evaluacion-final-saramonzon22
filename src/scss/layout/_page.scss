@@ -2,7 +2,7 @@
     background-color: $color-back1;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.6fr 1fr 1fr 1fr;
     align-items: center;
     text-align: center;
     font-family: $font-main;
@@ -28,9 +28,23 @@
 .img-fs {
     width: 90px;
     height: 90px;
+    padding-bottom: 50px;
+    padding-left: 47px;
+    padding-right: 47px;
 }
 .title-fs {
     font-size: $font-size-main;
+    color: $color-text;
+    font-weight: 600;
+    padding-bottom: 15px;
+    padding-left: 47px;
+    padding-right: 47px;
+}
+.text-fs {
+    padding-bottom: 40px;
+    padding-left: 47px;
+    padding-right: 47px;
+    font-size: 16px;
     color: $color-text;
 }
 .second-section {
@@ -39,7 +53,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-family: $font-main;}
+    font-family: $font-main;
+}
    
 .img-ss {
     margin-top: 46px;
@@ -59,8 +74,8 @@
 }
 .buy-now {
     color: $color-ss;
-    margin-top: 12px;
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 55px;
 }
 .third-section {
     background-color: $color-back1;
@@ -77,6 +92,10 @@
 .h2-ts {
     margin-top: 87px;
     font-size: 24px;
+    font-weight: 600;
+}
+.p-ts {
+    font-size: 14px;
 }
 .button-ts {
     width: 176px;
@@ -88,10 +107,22 @@
     font-size: 16px;
     text-transform: capitalize;
     margin-bottom: 92px;
+    font-weight: 600;
+    transition: background-color .7s;
 }
+.button-ts:hover {
+        background-color: #80DED9;
+        color: black;
+}
+
+
 .fourth-section {
     height: 304px;
     width: 100vw;
+    background-image: url(../images/creando-espacios.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;  
 }
 .img-fts {
     height: 100%;
