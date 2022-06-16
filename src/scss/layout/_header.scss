@@ -12,8 +12,7 @@
 .header-image {
     width: 100vw;
     height: 100%;
-    
-    
+     
     
 }
 .header-bar {
@@ -21,12 +20,12 @@
    display: flex;
    align-items: center;
    position: absolute;
-   gap: 30%;
+   gap: 25%;
    top: 0;
-   margin: 19px;
+   margin-top: 19px;
 }
 .header-bar i {
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .enjoy-buy {
    display: flex;
