@@ -3,6 +3,12 @@
     color: $color-footer-text;
     font-family: $font-main;
     height: 70vh;
+    @media all and (min-width:900px) {
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        height: 40vh;
+    }
  
 }
 .footer li:first-letter {
@@ -15,6 +21,11 @@
     align-items: center;
     padding-top: 50px;
     padding-bottom: 20px;
+    @media all and (min-width:900px) {
+        width: 208px;
+        padding-left: 15px;
+        
+    }
 }
 
 .list2{
@@ -23,6 +34,11 @@
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    @media all and (min-width:900px) {
+        padding-top: 50px;
+        width: 208px;
+
+    }
     
 }
 
@@ -32,6 +48,12 @@
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    @media all and (min-width:900px) {
+        padding-top: 50px;
+        align-items: left;
+        width: 208px;
+        padding-right: 15px;
+    }
 
 }
 .list-ft {
@@ -40,7 +62,12 @@
     text-align: left;
     width: 25%;
     color: $color-footer-text;
-    gap: 10px;
+    gap: 15px;
+    @media all and (min-width:900px) {
+        display: flex;
+        align-items: left;
+        
+    }
 }
 .h3-ft {
     font-size: $font-size-main;
@@ -54,10 +81,16 @@
 .icons-ft {
     display: flex;
     gap: 11px;
+    margin-top: 15px;
 }
 .up-icon {
     text-decoration: none;
     position: absolute;
     right: 5%;
     color: $color-footer-text;
+    @media all and (min-width:900px) {
+        align-self: end;
+        padding-bottom: 50px;
+                      
+    }
 }

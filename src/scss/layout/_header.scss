@@ -17,14 +17,14 @@
    align-items: center;
    gap: 100px;
    margin-left: 0;
-   @media all and (min-width: 768px) {
+   @media all and (min-width: 900px) {
     gap: 300px;
     }
   
 }
 .logo {
     margin-top: 30px;
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 900px) {
         display: flex;
         justify-content: center;
         align-items: center;      
@@ -34,7 +34,7 @@
     position: fixed;
     margin-left: 40px;
     color: $color-text;
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 900px) {
         margin-left: 80px;
     }
 }
@@ -44,7 +44,7 @@
    font-family: $font-main;
    gap: 62px;
    margin-left: 50px;
-   @media all and (min-width: 768px) {
+   @media all and (min-width: 900px) {
     margin-left: 150px;
 }
    
@@ -53,7 +53,7 @@
     color: $color-text;
     font-size: 24px;
     font-weight: 600;
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 900px) {
         font-size: 36px;
         width: 15ch;
     }
