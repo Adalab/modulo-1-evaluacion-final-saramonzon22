@@ -1,0 +1,99 @@
+.first-section {
+    background-color: $color-back1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    font-family: $font-main;
+    padding-left: 47px;
+    padding-right: 47px;
+
+}
+.open {
+    text-transform: uppercase;
+}
+.h2-main {
+    font-size: 24px;
+    color: $color-text;
+    font-family: $font-main;
+    text-align: center;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.article-fs {
+    grid-gap: 30px;
+} 
+.img-fs {
+    width: 90px;
+    height: 90px;
+}
+.title-fs {
+    font-size: $font-size-main;
+    color: $color-text;
+}
+.second-section {
+    background-color: $color-back2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: $font-main;}
+   
+.img-ss {
+    margin-top: 46px;
+
+}
+.h2-ss {
+    font-size: 24px;
+    color: $color-ss;
+    margin: 10px;
+}
+.text-ss {
+    font-size: 14px;
+    color: $color-ss;
+}
+.link-ss {
+    color: $color-ss;
+}
+.buy-now {
+    color: $color-ss;
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+.third-section {
+    background-color: $color-back1;
+    color: $color-text;
+    font-family: $font-main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+.h2-ts {
+    margin-top: 87px;
+    font-size: 24px;
+}
+.button-ts {
+    width: 176px;
+    height: 48px;
+    appearance: none;
+    border: 0;
+    background-color: $color-text;
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 92px;
+}
+.fourth-section {
+    height: 304px;
+    width: 100vw;
+}
+.img-fts {
+    height: 100%;
+    width: 100vw;
+}
