@@ -8,7 +8,12 @@
     font-family: $font-main;
     padding-left: 47px;
     padding-right: 47px;
-
+    @media all and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items:baseline;
+    text-align: center;
+}
 }
 .open {
     text-transform: uppercase;
@@ -20,17 +25,31 @@
     text-align: center;
     font-weight: 600;
     text-align: center;
+    @media all and (min-width: 768px) {
+        grid-column: 1 / 4;
+        align-self: center;
+        width: 35ch;
+        padding-left: 100px;
+        padding-right: 100px;
+        
+    }
     
 }
 .article-fs {
     grid-gap: 30px;
+    @media all and (min-width: 768px) {
+        grid-row: 2;
+        align-items: center;
+       
 } 
+}
 .img-fs {
     width: 90px;
     height: 90px;
     padding-bottom: 50px;
     padding-left: 47px;
     padding-right: 47px;
+    
 }
 .title-fs {
     font-size: $font-size-main;
@@ -123,6 +142,9 @@
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;  
+    @media all and (min-width: 768px) {
+        height: 450px;
+    }
 }
 .img-fts {
     height: 100%;
