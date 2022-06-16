@@ -1,0 +1,54 @@
+.header {
+    width: 100%;
+    height: 389px;
+       
+}
+.header-container {
+    height: 100%;
+    z-index: -999;
+    
+     
+}
+.header-image {
+    width: 100vw;
+    height: 100%;
+    
+    
+    
+}
+.header-bar {
+   
+   display: flex;
+   align-items: center;
+   position: absolute;
+   gap: 30%;
+   top: 0;
+   margin: 19px;
+}
+.header-bar i {
+    margin-left: 20px;
+}
+.enjoy-buy {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   transform: translateY(-180px);
+   font-family: $font-main;
+   gap: 62px;
+}
+h1 {
+    color: $color-text;
+    font-size: 24px;
+    font-weight: 600;
+}
+.button-buy {
+    width: 176px;
+    height: 48px;
+    appearance: none;
+    border: 0;
+    background-color: $color-text;
+    color: white;
+    font-size: 16px;
+
+}
