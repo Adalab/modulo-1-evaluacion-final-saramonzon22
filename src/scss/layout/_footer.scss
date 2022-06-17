@@ -12,6 +12,15 @@
         gap: 20px;
         height: 40vh;
     }
+    @media all and (min-width:1728px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 150px;
+        height: 35vh;
+        
+    }
  
 }
 .footer li:first-letter {
@@ -29,6 +38,11 @@
         padding-left: 15px;
         
     }
+    @media all and (min-width:1728px) {
+        padding-top: 0;
+        padding-left: 250px;
+    }
+
 }
 
 .list2{
@@ -42,6 +56,10 @@
         width: 208px;
 
     }
+    @media all and (min-width:1728px) {
+        transform: translateY(-23px);
+    }
+
     
 }
 
@@ -57,6 +75,10 @@
         width: 208px;
         padding-right: 15px;
     }
+    @media all and (min-width:1728px) {
+        padding-top: 0;
+        transform: translateY(-10px);
+    }
 
 }
 .list-ft {
@@ -68,8 +90,9 @@
     gap: 15px;
     @media all and (min-width:900px) {
         display: flex;
+        width: 300px;
         align-items: left;
-        
+                        
     }
 }
 .h3-ft {
@@ -97,6 +120,11 @@
     @media all and (min-width:900px) {
         align-self: end;
         padding-bottom: 150px;
+                      
+    }
+    @media all and (min-width:1728px) {
+        align-self: end;
+        padding-bottom: 160px;
                       
     }
 }
