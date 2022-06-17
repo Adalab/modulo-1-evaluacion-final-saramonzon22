@@ -26,7 +26,7 @@
         padding-top: 75px;
         padding-left: 250px;
         text-transform: capitalize;
-}
+    }
 }
 .list-desk {
     @media all and (min-width: 1728px) {
@@ -47,8 +47,8 @@
    align-items: center;
    gap: 100px;
    margin-left: 0;
-   @media all and (min-width: 900px) {
-    gap: 300px;
+    @media all and (min-width: 900px) {
+        gap: 300px;
     }
     @media all and (min-width: 1728px) {
         display: flex;
@@ -86,12 +86,12 @@
    gap: 62px;
    margin-left: 50px;
    @media all and (min-width: 900px) {
-    margin-left: 150px;
-}
-   @media all and (min-width: 1728px) {
-    margin-left: 250px;
-    transform: translateY(-300px);
-}
+        margin-left: 150px;
+    }
+    @media all and (min-width: 1728px) {
+        margin-left: 250px;
+        transform: translateY(-300px);
+    }
 }
 .enjoy {
     color: $color-text;
@@ -102,7 +102,7 @@
         width: 15ch;
     }
     @media all and (min-width: 1728px) {
-    font-size: 36px;
+        font-size: 36px;
     }
 }
 .button-buy {
@@ -115,8 +115,6 @@
     font-size: 16px;
     font-weight: 600;
     transition: background-color .7s;
-    
-
 }
 .button-buy:hover {
     background-color: #80DED9;
