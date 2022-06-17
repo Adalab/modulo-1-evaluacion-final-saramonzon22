@@ -2,9 +2,12 @@
     background-color: #0c474b;
     color: $color-footer-text;
     font-family: $font-main;
-    height: 70vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
     @media all and (min-width:900px) {
         display: flex;
+        flex-direction: row;
         justify-content: flex-start;
         gap: 20px;
         height: 40vh;
@@ -84,13 +87,16 @@
     margin-top: 15px;
 }
 .up-icon {
+    display: flex;
     text-decoration: none;
-    position: absolute;
-    right: 5%;
+    justify-content: right;
     color: $color-footer-text;
+    padding-bottom: 20px;
+    padding-right: 5%;
+    
     @media all and (min-width:900px) {
         align-self: end;
-        padding-bottom: 50px;
+        padding-bottom: 150px;
                       
     }
 }

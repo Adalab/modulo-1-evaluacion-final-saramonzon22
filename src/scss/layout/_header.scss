@@ -10,7 +10,37 @@
     gap: 300px;
     
 }
-
+.menu-desk {
+    display: none;
+    @media all and (min-width: 1728px) {
+        display: flex;
+        font-family: $font-main;
+         
+        
+    }
+}
+.main-container-list {
+    @media all and (min-width: 1728px) {
+        display: flex;
+        gap: 30px;
+        padding-top: 75px;
+        padding-left: 250px;
+        text-transform: capitalize;
+}
+}
+.list-desk {
+    @media all and (min-width: 1728px) {
+        display: inline;
+        
+    }
+}
+.nav-header {
+    @media all and (min-width: 1728px) {
+        text-decoration: none;
+        color: $color-text;
+    }
+    
+}
 .header-bar {
    display: flex;
    justify-content: flex-start;
@@ -20,15 +50,22 @@
    @media all and (min-width: 900px) {
     gap: 300px;
     }
+    @media all and (min-width: 1728px) {
+        display: flex;
+        justify-content: center;
+        gap: 0;
+        transform: translateY(-380px);
+    }
   
 }
 .logo {
-    margin-top: 30px;
+    margin-top: 20px;
     @media all and (min-width: 900px) {
         display: flex;
         justify-content: center;
         align-items: center;      
     }
+    
 }
 .header-bar i {
     position: fixed;
@@ -36,6 +73,10 @@
     color: $color-text;
     @media all and (min-width: 900px) {
         margin-left: 80px;
+    }
+    @media all and (min-width: 1728px) {
+        display: none;
+        
     }
 }
 .enjoy-buy {
@@ -47,7 +88,10 @@
    @media all and (min-width: 900px) {
     margin-left: 150px;
 }
-   
+   @media all and (min-width: 1728px) {
+    margin-left: 250px;
+    transform: translateY(-300px);
+}
 }
 .enjoy {
     color: $color-text;
@@ -56,6 +100,9 @@
     @media all and (min-width: 900px) {
         font-size: 36px;
         width: 15ch;
+    }
+    @media all and (min-width: 1728px) {
+    font-size: 36px;
     }
 }
 .button-buy {
